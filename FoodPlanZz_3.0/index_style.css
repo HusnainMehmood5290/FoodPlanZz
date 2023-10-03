@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+}
+.foodBtn {
+  text-decoration: none;
+  color: black;
+}
+.stylefood {
+  width: 23%;
+  height: 43%;
+  /* float: left; */
+  border-left: 2px solid;
+  border-bottom: 2px solid;
+  border-radius: 15px;
+  margin: 4px;
+  /* margin-top: 10%; */
+  text-align: center;
+  text-transform: capitalize;
+  display: inline-block;
+  cursor: pointer;
+  overflow: hidden; /* clip the excess when child gets bigger than parent */
+  box-shadow: 3px 4px 3px #ccc;
+}
+.stylefood:hover {
+  box-shadow: 0px 0px 20px #ccc;
+}
+.stylefood > div > img {
+  display: block;
+  width: 100%;
+  transition: transform 0.4s;
+  /* smoother zoom */
+}
+.stylefood:hover > div > img {
+  transform-origin: 50% 50%;
+  transform: scale(1.1);
+}
+.stylefood > .name {
+  margin-top: 7px;
+}
+.header {
+  overflow: hidden;
+  background-color: #00000040;
+  padding: 0 150px;
+}
+.header > a {
+  font-size: large;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 700;
+  margin-left: 20px;
+  margin-top: 20px;
+  float: left;
+  height: 40px;
+  text-align: center;
+}
+.header > ul {
+  margin-left: 20px;
+  margin-top: 20px;
+  float: right;
+}
+.header > ul > a,
+.header > ul > div {
+  float: left;
+  font-weight: 700;
+  list-style: none;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  padding-left: 40px;
+}
+.header > ul > a:hover {
+  color: white;
+}
+.Item_count {
+  padding: 0 !important;
+  background-color: antiquewhite;
+  color: #fff !important;
+  background-color: #dc3545;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  border-radius: 0.25rem;
+}
+.cover {
+  background-image: url(./images/Download/home_cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 370px;
+  margin-bottom: 10%;
+}
+.cover-center {
+  text-align: center;
+  color: white;
+  background-color: #00000040;
+  height: 150px;
+  width: max-content;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+.cover-center > h2 {
+  margin: 0px 100px;
+  margin-bottom: 60px;
+}
+.cover-center > a {
+  color: #fff;
+  text-decoration: NONE;
+  background-color: #28a745;
+  border-color: #28a745;
+  padding: 20px 36px;
+  font-size: 13.6px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10rem;
+}
+#about {
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 700;
+  min-width: 750px;
+  margin-top: 100px;
+}
+.aboutdetail {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.veiwProduct {
+  margin-left: 10%;
+  text-decoration: none;
+  width: 80%;
+  border: 1px solid #28a745;
+  color: #28a745;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.veiwProduct:hover {
+  color: white;
+  background-color: #28a745;
+}

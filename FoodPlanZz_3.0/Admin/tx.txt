@@ -1,0 +1,6 @@
+My problem is delete a specific 
+echo"html inside";
+onclick of some button;
+
+
+My next focus is to make site usable for user

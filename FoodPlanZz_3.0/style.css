@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+/* ADD FOOD CSS */
+.submit-btn {
+  text-align: center;
+  color: Black;
+  padding: 8px 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+td {
+  padding: 5px;
+}
+
+table {
+  margin: 50px auto;
+  border: 2px rgba(128, 128, 128, 0.582) solid;
+  background-color: rgba(0, 195, 255, 0.11);
+}
+form {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(128, 128, 128, 0.582);
+}
+.addfood {
+  background: url("https://images.unsplash.com/photo-1555003506-05653db6af47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Zm9vZCUyMGJsYWNrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+}
+/* INDEX PAGE CSS */
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 228, 196, 0.568);
+}
+.logo {
+  margin-top: 10px;
+  width: 158px;
+}
+a button {
+  text-align: center;
+  color: Black;
+  background-color: rgba(39, 171, 180, 0.767);
+  /* border: none; */
+  padding: 10px 16px;
+  margin: 10px 0;
+  width: 150px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.firstPage {
+  text-align: center;
+  background: url("https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=60://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=60");
+}
